@@ -11,7 +11,7 @@ require('./db/connect');
 const graphQlSchema = require('./graphql/schema');
 const graphQlResolvers = require('./graphql/resolvers');
 const verifyToken = require('./middlewares/verifyToken');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 const app = express();
 
